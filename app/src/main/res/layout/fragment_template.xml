@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_marginBottom="15dp">
+    <ImageView
+        android:layout_width="200dp"
+        android:id="@+id/eat"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/eat"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:id="@+id/sleep"
+
+        android:layout_height="wrap_content"
+        android:src="@drawable/sleep"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:id="@+id/water"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/water"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:id="@+id/play"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
